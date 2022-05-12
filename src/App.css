@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 30vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
@@ -38,3 +38,45 @@
     
   }
 }
+
+h2 {
+  margin-top: 5vh;
+}
+
+.box {
+  display: flex;  
+  align-items: center;
+  justify-content: space-around;  
+  gap: 5px;
+  padding: 5px;    
+  flex-flow: row wrap;
+  margin: 10px;
+  /*background-color: blueviolet;*/
+}
+.box div{  
+  /*background-color: burlywood;*/
+  display:flex;
+  align-items: center;
+  justify-content: space-around;  
+  width:200px;
+  height:15vh;
+  border-width: 2px;
+  border-style: solid;
+  border-color: whitesmoke;
+  align-items: center;
+}
+
+.box div:hover {
+  background-color: lightgray;
+  color:black;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

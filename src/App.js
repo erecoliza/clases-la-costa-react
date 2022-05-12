@@ -1,15 +1,13 @@
 //import logo from './logo.svg';
 import logo from './LOGO-NUEVO-180x180.png';
 import './App.css';
+import autos from './Autos.json';
 
-const autos = [
+/*const autos = [
   { id: 1, nombre: "Corsa", modelo: "Chevrolet"},
-  { id: 2, nombre: "Siena", modelo: "Fiat"},
-  { id: 3, nombre: "Ka", modelo: "Ford"},
-  { id: 4, nombre: "Gol", modelo: "Volkswagen"},
-  { id: 5, nombre: "A7", modelo: "Audi"},
+  { id: 2, nombre: "Siena", modelo: "Fiat"}, 
 ]
-
+*/
 
 function App() {
   return (
@@ -18,10 +16,15 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <h2>Bienvenidos a la Clase 1 de React</h2>  
-      
-      <ul>
-         { autos.map(auto => (<li>{auto.modelo} - {auto.nombre} </li>)     )}
-      </ul>
+        <div className="box">
+            { autos.map(auto => (
+              <div key={auto.id}>({auto.id}) {auto.modelo} <br />              
+               {auto.nombre} </div>
+            ))}     
+        </div>
+        <ul>
+          { autos.map(auto => (<li>{auto.modelo} - {auto.nombre} </li>)     )}
+        </ul> 
       </header>
     </div>
   );
