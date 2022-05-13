@@ -3,6 +3,7 @@
 }
 
 .App-logo {
+  margin-top:5vh;  
   height: 25vmin;
   pointer-events: none;
 }
@@ -14,8 +15,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  /*background-color: rgb(0, 156, 161);*/
+  background-color: rgb(0, 156, 161);
+  /*background-color: #282c34;*/  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@
   color: white;
 }
 
-.App-link {
+.App-link {    
   color: #61dafb;
 }
 
