@@ -1,0 +1,8 @@
+[
+    { "id": 1, "nombre": "Corsa", "modelo": "Chevrolet"},
+    { "id": 2, "nombre": "Siena", "modelo": "Fiat"},
+    { "id": 3, "nombre": "Gol", "modelo": "Volkswagen"},
+    { "id": 4, "nombre": "Escord", "modelo": "Ford"},
+    { "id": 5, "nombre": "A3", "modelo": "Audi"},
+    { "id": 6, "nombre": "G7", "modelo": "Mercedes Benz"}
+]
