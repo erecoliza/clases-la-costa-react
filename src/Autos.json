@@ -3,8 +3,8 @@
     {"id": 2, "nombre": "Siena", "modelo": "Fiat"},
     {"id": 3, "nombre": "Ka", "modelo": "Ford"},
     {"id": 4, "nombre": "Gol", "modelo": "Volkswagen"},
-    {"id": 5, "nombre": "A7", "modelo": "Audi"}, 
-    {"id": 6, "nombre": "GLB", "modelo": "Mercedes Benz"}, 
-    {"id": 7, "nombre": "812", "modelo": "Ferrari"},
+    {"id": 5, "nombre": "A5", "modelo": "Audi"}, 
+    {"id": 6, "nombre": "A200", "modelo": "Mercedes Benz"}, 
+    {"id": 7, "nombre": "California", "modelo": "Ferrari"},
     {"id": 8, "nombre": "Corolla", "modelo": "Toyota"}  
 ]
