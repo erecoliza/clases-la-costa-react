@@ -1,8 +1,10 @@
 //import logo from './logo.svg';
+
 import logo from './LOGO-NUEVO-180x180.png';
 //import "./reset.css";
 import './App.css';
 import autos from './Autos.json';
+import Autoss from './components/Autoss';
 
 /*const autos = [
   { id: 1, nombre: "Corsa", modelo: "Chevrolet"},
@@ -16,19 +18,14 @@ function App() {
     <div className="App" >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Bienvenidos a la Clase 1 de React</h2>  
-        
-        <div className="box">            
-            { autos && autos.map(auto => (
-              <div key={auto.id}>({auto.id}) {auto.modelo} <br />              
-               {auto.nombre} </div>
-            ))}     
-        </div>
-        <a href="http://www.autos.com.ar" className="App-link" target="noreferrer">Autos</a> 
-        <ul>
-          { autos.map(auto => (<li>{auto.modelo} - {auto.nombre} </li>)    )}          
-        </ul>        
+        <h2>Bienvenidos a la Clase 2 de React</h2>  
+        <div className="box">    
+          <Autoss autos = {autos}  />     
+        </div>        
       </header>      
+      <footer className="App-footer">
+      <h4>Página creada por <i class="material-icons">&#xe7fd;</i> Eduardo Recoliza   -  <i class="material-icons">&#xe55e;</i>  Argentina (2022)</h4>   
+      </footer>
     </div>
   );
 }
