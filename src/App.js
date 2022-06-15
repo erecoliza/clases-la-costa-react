@@ -5,6 +5,7 @@ import logo from './LOGO-NUEVO-180x180.png';
 import './App.css';
 import autos from './Autos.json';
 import Autoss from './components/Autoss';
+import AutosConsulta from './components/AutosConsulta';
 
 /*const autos = [
   { id: 1, nombre: "Corsa", modelo: "Chevrolet"},
@@ -20,7 +21,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Bienvenidos a la Clase 2 de React</h2>  
         <div className="box">    
-          <Autoss autos = {autos}  />     
+          
+          <AutosConsulta />
         </div>        
       </header>      
       <footer className="App-footer">

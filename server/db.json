@@ -1,0 +1,15 @@
+{"autos":
+    [
+    {"id": 1, "nombre": "Corsa", "modelo": "Chevrolet"},
+    {"id": 2, "nombre": "Siena", "modelo": "Fiat"},
+    {"id": 3, "nombre": "Ka", "modelo": "Ford"} ,
+    {"id": 4, "nombre": "Gol", "modelo": "Volkswagen"},
+    {"id": 5, "nombre": "A5", "modelo": "Audi"}, 
+    {"id": 6, "nombre": "A200", "modelo": "Mercedes Benz"}, 
+    {"id": 7, "nombre": "California", "modelo": "Ferrari"},
+    {"id": 8, "nombre": "Corolla", "modelo": "Toyota"},
+    {"id": 9, "nombre": "Fox", "modelo": "Volkswagen"},
+    {"id": 10, "nombre": "Up", "modelo": "Volkswagen"}
+
+    ]
+}
